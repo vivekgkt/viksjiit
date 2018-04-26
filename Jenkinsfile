@@ -13,6 +13,7 @@ pipeline {
     stage('build') {
       steps {
         bat 'mvn clean compile'
+        echo 'Build successfullu Vivek'
       }
     }
   }
